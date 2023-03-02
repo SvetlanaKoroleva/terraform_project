@@ -9,3 +9,9 @@ variable "region" {
   type        = string
   default     = ""
 }
+
+variable "tags" {
+  description = "Please provide a tag for resource name"
+  type        = map
+  default     = {}
+}
