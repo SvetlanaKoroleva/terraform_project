@@ -33,3 +33,21 @@ variable "public_subnet3" {
   type        = string
   default     = ""
 }
+
+variable "private_subnet1" {
+  description = "Please provide subnet CIDR block"
+  type        = string
+  default     = ""
+}
+
+variable "private_subnet2" {
+  description = "Please provide subnet CIDR block"
+  type        = string
+  default     = ""
+}
+
+variable "private_subnet3" {
+  description = "Please provide subnet CIDR block"
+  type        = string
+  default     = ""
+}
