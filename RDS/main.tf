@@ -22,3 +22,7 @@ resource "aws_db_instance" "default" {
   skip_final_snapshot  = true
   publicly_accessible  = var.publicly_accessible
 }
+
+output endpoint {
+    value = aws_db_instance.default.address
+}
