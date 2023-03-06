@@ -5,6 +5,7 @@ instance_type    = "t2.micro"
 desired_capacity = 1
 max_size         = 99
 min_size         = 1
+subnets          = ["subnet-0cb13809f0fe55ad8"]
 
 tags = {
   Name = "main"
